@@ -1,0 +1,23 @@
+{
+    "name": "originera/alipay",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Originera\\Alipay\\": "src/",
+            "Originera\\Alipay\\Member\\": "src/member"
+        }
+    },
+    "authors": [
+        {
+            "name": "cps",
+            "email": "cps_1993@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev",
+      "ext-http": "*",
+      "ext-openssl": "*"
+    }
+}
